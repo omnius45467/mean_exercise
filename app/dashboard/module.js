@@ -17,9 +17,7 @@ angular.module('dashboard')
 function DashboardCtrl() {
     let array = [
         ['tesflkft', 'hjahdkjahk', 'jflajfla'],
-        ['tjkft', 'hjahdkjahk', 'jflajfla'],
-        ['tslkft', 'hjkjahk', 'jfla'],
-        ['8989kft', 'hjahdkjahk', 'jflajf8989la']
+        ['tjkft', 'hjahdkjahk', 'jflajfla']
     ];
 
     this.message = array.forEach(function (a) {
