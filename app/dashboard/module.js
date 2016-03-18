@@ -15,14 +15,6 @@ angular.module('dashboard')
     });
 
 function DashboardCtrl() {
-    let array = [
-        ['tesflkft', 'hjahdkjahk', 'jflajfla'],
-        ['tjkft', 'hjahdkjahk', 'jflajfla']
-    ];
 
-    this.message = array.forEach(function (a) {
-        console.log(`ha ${a[0].split('l').reverse().join()}`);
-        console.log(`auioad ${a[2].split('l').reverse().join()}`);
-    });
 
 }

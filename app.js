@@ -4,9 +4,10 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     cookieParser = require('cookie-parser'),
     mongoose = require('mongoose'),
+    db = require('./models'),
     app = express();
 
-mongoose.connect('mongodb://localhost/test');
+db.init();
 
 //View rendering, you can rip this out if your creating an API
 app.set('views', path.join(__dirname, 'views'));
